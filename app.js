@@ -33,3 +33,13 @@ if (weather == "gloomy") {
 } else {
   console.log("so much rain");
 }
+
+let day = "sunday";
+
+if (day == "saturday") {
+  console.log("Its the weekend!");
+} else if (day == "sunday") {
+  console.log("its still the weekend");
+} else if (day == "monday") {
+  console.log("Funday Monday!");
+}
